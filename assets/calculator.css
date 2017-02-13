@@ -37,3 +37,13 @@
 #myCalculator main p { margin: 0; font-size: 1.5em; font-weight: 700; }
 
 #myCalculator main p + p { font-size: 1em; font-weight: 300; }
+
+/*string literal adds "w" to p tags*/
+#myCalculator main p::after { content:'w';} 
+
+/*adds price sign to dollar amount in p element*/
+#myCalculator main p + p::before { content:'$';} 
+#myCalculator main p + p::after { content:'per year'; color: rgba(255,255,255,.5); padding-left: 4px;}
+
+
+
