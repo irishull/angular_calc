@@ -1,0 +1,2 @@
+# Prevent angular from being tracked
+angular.min.js
